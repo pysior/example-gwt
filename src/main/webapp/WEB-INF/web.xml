@@ -1,0 +1,20 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Example SmartGWT application</display-name>	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	
+	<servlet>
+  		<servlet-name>helloService</servlet-name>
+  		<servlet-class>pl.edu.agh.ftj.datamining.examplegwt.server.HelloServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+  		<servlet-name>helloService</servlet-name>
+  		<url-pattern>/examplegwt/hello</url-pattern>
+	</servlet-mapping>
+</web-app>

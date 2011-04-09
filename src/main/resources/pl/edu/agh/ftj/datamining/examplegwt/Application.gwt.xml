@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='examplegwt'>
+    <inherits name='com.google.gwt.user.User'/>
+    <inherits name="com.google.gwt.logging.Logging"/>
+    <inherits name="com.google.gwt.place.Place"/>
+     
+    <inherits name="com.smartgwt.SmartGwt"/>
+    <inherits name="com.smartclient.theme.enterprise.EnterpriseResources"/>
+    <inherits name="com.smartgwt.tools.SmartGwtTools"/>
+	<inherits name='pl.edu.agh.ftj.datamining.examplegwt.Shared' />
+	
+    <entry-point class='pl.edu.agh.ftj.datamining.examplegwt.client.Application'/>
+    <set-property name="user.agent" value="gecko1_8" />
+	<set-property name="gwt.logging.popupHandler" value="DISABLED"/> 
+    <source path="client"/>
+</module>
